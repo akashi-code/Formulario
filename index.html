@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-content">
+            <form action="" class="form-group" method="post">
+                
+                <h3>Formulário de teste</h3>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-3">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="nome" required>
+                            <label for="nome">Nome</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-3">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="sobrenome" required>
+                            <label for="sobrenome">Sobrenome</label>
+                          </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-12 col-sm-6">
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <label for="sexo">Sexo</label> <br>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="sexo" id="masculino" class="form-check-input" required>
+                    <label for="masculino" class="form-check-label">Masculino</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="sexo" id="feminino" class="form-check-input" required>
+                    <label for="feminino" class="form-check-label">Feminino</label>
+                </div>
+                
+                <div class="form-floating">
+                    <textarea class="form-control" id="comentario" style="height: 150px"></textarea>
+                    <label for="comentario">Comentário</label>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="reset" class="btn btn-secondary">Limpar</button>
+                    </div>
+                </div>
+
+                
+
+            </form>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>

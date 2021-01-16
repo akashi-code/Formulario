@@ -1,0 +1,58 @@
+/* IMPORTANDO FONT  */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.container {
+    justify-content: center;
+    align-content: center;
+}
+
+.form-content {
+    margin: 50px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* TITULO DO FORMULARIO */
+.form-content h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+/* FORMATANDO OS CONTEÚDOS */
+.form-content input[type=text], input[type=email] {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.form-content input[type=text]:focus, input[type=email]:focus{
+    box-shadow: none;
+    border-bottom: 1px solid rgb(116, 51, 133);
+}
+
+.form-content input[type=radio]:checked {
+    box-shadow: none;
+}
+
+.form-content div.row {
+    margin-top: 10px;
+}
+
+.form-content textarea {
+    margin-top: 10px;
+    resize: none;
+}
+
+.form-content textarea:focus {
+    box-shadow: none;
+    border: 1px rgb(116, 51, 133) solid;
+}
